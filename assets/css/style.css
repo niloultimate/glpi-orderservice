@@ -1,6 +1,6 @@
 /** Configurações **/
 
-.back {
+.back-orderservice {
     width: 60% !important;
     height: 700px;
     border-radius: 5px;
@@ -10,13 +10,13 @@
     padding: 10px 20px;
 }
 
-.back h1 {
+.back-orderservice h1 {
     font-size: 20px;
     text-align: center;
     color: #333;
 }
 
-.back h2 {
+.back-orderservice h2 {
     font-size: 16px;
     text-align: center;
     color: #333;
@@ -141,11 +141,6 @@ label {
     }
 }
 
-td, th {
-    text-align: left;
-    padding: 5px;
-}
-
 .td-logo-1 {
     width: 20%;
     text-align: center;
@@ -213,6 +208,11 @@ input[type="submit1"] {
 
 .ali-center {
     text-align: center;
+}
+
+.ali-left{
+    text-align: left;
+    padding: 5px;
 }
 
 .size-p {

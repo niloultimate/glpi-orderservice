@@ -49,7 +49,7 @@ class PluginOrderServiceDisplay extends CommonOrderService {
 		$configPlugin   = CommonOrderService::configPlugin();
 
 
-		echo '<div class="back">
+		echo '<div class="back-orderservice">
 				<h1>Configurações</h1>
 				<hr>
 				<div class="col-md-6" style="margin-right:15px;">

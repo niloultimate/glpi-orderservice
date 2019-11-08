@@ -93,16 +93,16 @@ class PluginOrderService extends CommonOrderService {
         
         echo ' 
             <tr><td class="ali-center header-td"><b>Dados do requerente</b></td></tr>
-            <tr class="col-6 padd">
+            <tr class="col-6 padd ali-left">
             <td class="col-12"><b>Nome: </b>'. $users['Nome'] . ' ' . $users['Sobrenome'] .'</td>
             <td class="col-12"><b>Telefone: </b>'. $users['Fone'] .'</td>
             </tr>
-            <tr class="col-6 padd">
+            <tr class="col-6 padd ali-left">
             <td class="col-12"><b>E-mail: </b>'. $users['Email'] .'</td>
             <td class="col-12"><b>Departamento: </b>'. $users['Localidade'] .'</td>
             </tr>
             <tr><td class="ali-center header-td"><b>Detalhes do Chamado</b></td></tr>
-            <tr class="col-6 padd">
+            <tr class="col-6 padd ali-left">
             <td class="col-12"><b>Título: </b>'. $tickets['name'] .'</td>
             <td class="col-12"><b>Técnico Responsável: </b>'. $ticketsUser[2] .'</td>
             ';
@@ -112,7 +112,7 @@ class PluginOrderService extends CommonOrderService {
             endif; 
         
         echo ' 
-            </tr><tr class="col-6 padd">
+            </tr><tr class="col-6 padd ali-left">
             <td class="col-12"><b>Data/Hora Abertura: </b>'. $dates[0] .'</td>
             ';
 
@@ -128,11 +128,11 @@ class PluginOrderService extends CommonOrderService {
         echo ' 
             </tr>
             <tr><td class="ali-center header-td"><b>Descrição do Chamado</b></td></tr>
-            <tr>
+            <tr class="ali-left">
             <td class="desc-chamado" colspan="2" valign="top">'. html_entity_decode($tickets['content']) .'</td>
             </tr>
             <tr><td class="ali-center header-td"><b>Solução</b></td></tr>
-            <tr>
+            <tr class="ali-left">
             <td height="5" colspan="2" valign="top">
             ';
 
